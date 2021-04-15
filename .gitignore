@@ -6,6 +6,7 @@
 .idea
 **/node_modules/*
 firebase-debug.log
+.firebaserc
 
 ### Firebase Patch ###
 .runtimeconfig.json
