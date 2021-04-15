@@ -11,13 +11,13 @@ const showController = () => {
 }
 
 document.addEventListener('keydown', (event) => {
-    console.log(`keydown:${event.key}`);
-    controller[event.key] = true;
+    console.log(`keydown:${event.code}`);
+    controller[event.code] = true;
     showController();
 });
 
 document.addEventListener('keyup', (event) => {
-    console.log(`keyup:${event.key}`);
-    controller[event.key] = false;
+    console.log(`keyup:${event.code}`);
+    controller[event.code] = false;
     showController();
 });
